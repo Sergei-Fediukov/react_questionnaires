@@ -10,7 +10,8 @@ module.exports = {
         port: 3000,
         proxy: {
             '/api': {
-                target: 'https://express-questionnaires-server.herokuapp.com',
+//                 target: 'https://express-questionnaires-server.herokuapp.com',
+                target: 'https://questionnaires-server.onrender.com'
                 secure: false,
                 changeOrigin: true,
             },
