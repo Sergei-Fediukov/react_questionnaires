@@ -1,6 +1,7 @@
 let baseUrl;
 
-export const proxyUrl = 'https://express-questionnaires-server.herokuapp.com';
+// export const proxyUrl = 'https://express-questionnaires-server.herokuapp.com';
+export const proxyUrl = 'https://questionnaires-server.onrender.com'
 
 
 if (process.env.NODE_ENV === 'development') {
